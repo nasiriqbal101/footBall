@@ -1,0 +1,16 @@
+.maindiv {
+    display: flex;
+    flex-direction: column;
+    border: solid white 2px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .playersname {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 150px;
+  }
+  

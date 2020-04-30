@@ -1,0 +1,64 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+    margin-left: 20px;padding: 10px;
+  }
+  .availablePlayers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+  }
+  
+  .selectedTeam {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 20px;
+  }
+  .selectedGoalkeeper {
+    display: grid;
+    grid-area: 1/5;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .selectedDefender {
+    display: grid;
+    grid-area: 2/5;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .selectedMidfielder {
+    display: grid;
+    grid-area: 3/5;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+  .selectedAttacker {
+    display: grid;
+    grid-area: 4/5;
+    justify-content: center;
+    grid-gap: 0;
+    text-align: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  @media screen and (max-width: 992px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+    .availablePlayers {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
