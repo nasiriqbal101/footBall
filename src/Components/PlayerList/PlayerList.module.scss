@@ -8,8 +8,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 15px;
-  }
-  
+  }  
   .selectedTeam {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -41,6 +40,10 @@
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
+  .page-template-grid-page {
+    color: #008080;
+}
   
   .selectedAttacker {
     display: grid;

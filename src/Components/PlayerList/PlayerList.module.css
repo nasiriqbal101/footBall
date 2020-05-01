@@ -79,6 +79,10 @@
       grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.page-template-grid-page {
+  color: #008080;
+}
+
 .selectedAttacker {
   display: -ms-grid;
   display: grid;
